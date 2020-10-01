@@ -1,4 +1,4 @@
- Making A Guessing Game
+# Making A Guessing Game
 
 n=18
 
@@ -20,11 +20,12 @@ while (number_of_guesses<=9):
 
     else:
 
-        print("you won\n")
+        print("You won!!\n",
+        "Kongo!!")
 
-        print(number_of_guesses,"no.of guesses you took to finish.")
+        print(number_of_guesses,"Number of guesses you took to finish.")
 
-        break
+        break:
 
     print(9-number_of_guesses,"no. of guesses left")
 
@@ -32,4 +33,4 @@ while (number_of_guesses<=9):
 
 if(number_of_guesses>9):
 
-    print("Game Over")
+    print("Game Is Over")
